@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from './home.module.scss'
+import Header from '../components/header'
 
 export default function Home() {
     return (
@@ -13,6 +14,8 @@ export default function Home() {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+
+            <Header whiteVersion />
 
             <main className={styles.main}>
                 <h1 className={styles.title}>
