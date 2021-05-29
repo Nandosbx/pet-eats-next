@@ -4,7 +4,9 @@ export default function Petshop() {
     return (
         <div className="h-100">
             <Header whiteVersion />
-            Petshop
+            <div className="container">
+                
+            </div>
         </div>
     )
 }
