@@ -23,6 +23,11 @@ export default class MyDocument extends Document {
                         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
                         crossOrigin="anonymous"
                     />
+
+                    <link
+                        rel="stylesheet"
+                        href="https://cdn.jsdelivr.net/npm/@mdi/font@5.9.55/css/materialdesignicons.min.css"
+                    />
                 </Head>
                 <body>
                     <Main />
