@@ -10,9 +10,24 @@ export default function Petshop() {
                     <b>Petlove</b>
 
                     <div className="petshop-infos">
-                        <span className="mid mdi-star"></span>
+                        <span className="mdi mdi-star"></span>
                         <text>
                             <b>2,8</b>
+                        </text>
+
+                        <span className="mdi mdi-cash-usd-outline"></span>
+                        <text>
+                            <b>$</b>
+                        </text>
+
+                        <span className="mdi mdi-cash-usd-outline"></span>
+                        <text>
+                            <b>$</b>
+                        </text>
+
+                        <span className="mdi mdi-crosshair-gps"></span>
+                        <text>
+                            <b>2,9</b>
                         </text>
                     </div>
                 </div>
