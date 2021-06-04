@@ -1,5 +1,7 @@
 import Header from '../../components/header'
 
+import './styles.scss'
+
 export default function Petshop() {
     return (
         <div className="h-100">
