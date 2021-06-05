@@ -1,6 +1,6 @@
 import Header from '../../components/header'
 
-import './styles.scss'
+import './styles.module.scss'
 
 export default function Petshop() {
     return (
