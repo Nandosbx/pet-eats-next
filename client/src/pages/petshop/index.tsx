@@ -8,7 +8,7 @@ export default function Petshop() {
             <Header whiteVersion />
             <div className="container">
                 <div className="col-2">
-                    <img src="" alt="" />
+                    <img src="" alt="" className="petshop-image"/>
                     <b>Petlove</b>
 
                     <div className="petshop-infos">
@@ -31,7 +31,12 @@ export default function Petshop() {
                         <text>
                             <b>2,9</b>
                         </text>
+
+
                     </div>
+                    <label className="badge badge-primary">Frete grátis</label>
+                
+                
                 </div>
 
                 <div className="col-10"></div>

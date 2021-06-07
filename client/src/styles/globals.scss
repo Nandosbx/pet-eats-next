@@ -1,3 +1,8 @@
+:root {
+    --primary: 6, 214, 160;
+    --secondary: 250, 100, 61;
+}
+
 html,
 body {
     height: 100%;
@@ -28,11 +33,25 @@ input[type='date']:disabled {
 }
 
 .bg-primary {
-    background-color: var(--primary) !important;
+    background-color: rgb(var(--primary)) !important;
+}
+
+.badge {
+    font-weight: lighter;
+
+    .badge-primary {
+        background: rgba(var(--primary), 0.1);
+        color: rgb(var(--primary));
+    }
+
+    .badge-secondary {
+        background: rgba(var(--secondary), 0.1);
+        color: rgb(var(--secondary));
+    }
 }
 
 .bg-secondary {
-    background-color: var(--secondary) !important;
+    background-color: rgb(var(--secondary)) !important;
 }
 
 .btn {
@@ -48,8 +67,8 @@ input[type='date']:disabled {
 .btn-primary:active,
 .btn-primary:disabled,
 .btn-primary:hover {
-    background-color: var(--primary) !important;
-    border-color: var(--primary);
+    background-color: rgb(var(--primary)) !important;
+    border-color: rgb(var(--primary));
 }
 
 .btn-secondary,
@@ -57,8 +76,8 @@ input[type='date']:disabled {
 .btn-secondary:active,
 .btn-secondary:disabled,
 .btn-secondary:hover {
-    background-color: var(--secondary) !important;
-    border-color: var(--secondary);
+    background-color: rgb(var(--secondary)) !important;
+    border-color: rgb(var(--secondary));
 }
 
 .box {
@@ -68,4 +87,3 @@ input[type='date']:disabled {
     display: inline-block;
     padding: 50px;
 }
-
