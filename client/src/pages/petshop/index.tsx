@@ -8,7 +8,7 @@ export default function Petshop() {
             <Header whiteVersion />
             <div className="container">
                 <div className="col-2">
-                    <img src="" alt="" className="petshop-image"/>
+                    <img src="" alt="" className="petshop-image" />
                     <b>Petlove</b>
 
                     <div className="petshop-infos">
@@ -22,21 +22,12 @@ export default function Petshop() {
                             <b>$</b>
                         </text>
 
-                        <span className="mdi mdi-cash-usd-outline"></span>
-                        <text>
-                            <b>$</b>
-                        </text>
-
                         <span className="mdi mdi-crosshair-gps"></span>
                         <text>
-                            <b>2,9</b>
+                            <b>2,9Km</b>
                         </text>
-
-
                     </div>
                     <label className="badge badge-primary">Frete grátis</label>
-                
-                
                 </div>
 
                 <div className="col-10"></div>

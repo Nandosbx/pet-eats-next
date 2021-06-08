@@ -38,16 +38,16 @@ input[type='date']:disabled {
 
 .badge {
     font-weight: lighter;
+}
 
-    .badge-primary {
-        background: rgba(var(--primary), 0.1);
-        color: rgb(var(--primary));
-    }
+.badge-primary {
+    background: rgba(var(--primary), 0.1);
+    color: rgb(var(--primary));
+}
 
-    .badge-secondary {
-        background: rgba(var(--secondary), 0.1);
-        color: rgb(var(--secondary));
-    }
+.badge-secondary {
+    background: rgba(var(--secondary), 0.1);
+    color: rgb(var(--secondary));
 }
 
 .bg-secondary {
