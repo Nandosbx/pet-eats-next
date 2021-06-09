@@ -14,7 +14,7 @@ export default function Petshop() {
                     <div className="petshop-infos">
                         <span className="mdi mdi-star"></span>
                         <text>
-                            <b>2,8</b>
+                            <b>2.8</b>
                         </text>
 
                         <span className="mdi mdi-cash-usd-outline"></span>
