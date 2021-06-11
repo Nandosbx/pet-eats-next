@@ -1,4 +1,5 @@
 import Header from '../../components/header'
+import Product from '../../components/product/card'
 
 import './styles.module.scss'
 
@@ -30,7 +31,12 @@ export default function Petshop() {
                     <label className="badge badge-primary">Frete grátis</label>
                 </div>
 
-                <div className="col-10"></div>
+                <div className="col-10">
+                    <h5>Produtos</h5>
+                </div>
+                <div className="row">
+                    <Product />
+                </div>
             </div>
         </div>
     )
