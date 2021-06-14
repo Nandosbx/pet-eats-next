@@ -33,9 +33,11 @@ export default function Petshop() {
 
                 <div className="col-10">
                     <h5>Produtos</h5>
-
+                    <br />
                     <div className="row">
-                        <Product />
+                        {[1, 2, 3, 4, 5].map((p) => (
+                            <Product />
+                        ))}
                     </div>
                 </div>
             </div>
