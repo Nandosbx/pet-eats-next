@@ -33,9 +33,10 @@ export default function Petshop() {
 
                 <div className="col-10">
                     <h5>Produtos</h5>
-                </div>
-                <div className="row">
-                    <Product />
+
+                    <div className="row">
+                        <Product />
+                    </div>
                 </div>
             </div>
         </div>
