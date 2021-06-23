@@ -15,8 +15,7 @@ export default function Header({ whiteVersion }: headerProps) {
                 />
             </header>
             <button className="btn btn-secondary cart-button">
-                <span className="mdi mdi-cart"></span>
-                Item
+                <span className="mdi mdi-cart"></span>Item
             </button>
         </div>
     )
