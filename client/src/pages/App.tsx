@@ -6,11 +6,19 @@ import Header from '../components/header'
 import Sidebar from '../components/sidebar'
 import Petshop from '../pages/petshop'
 
-export default function APP() {
+import dynamic from 'next/dynamic'
+
+export default function App() {
+    const DynamicComponentWithNoSSR = dynamic(
+        () => import('../components/sidebar'),
+        {
+            ssr: false,
+        }
+    )
     return (
         <>
             <Petshop />
-            <Sidebar />
+            <DynamicComponentWithNoSSR />
         </>
     )
 }
