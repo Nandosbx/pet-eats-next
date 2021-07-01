@@ -1,14 +1,25 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import './styles.module.scss'
 import Dock from 'react-dock'
 
+
+
 import Product from '../../components/product/list'
 
-export default function Sideber() {
+export default function Sidebar() {
     const [opened, setOpened] = useState(false)
 
+    useEffect(() => {
+        window.addEventListener('openCart', () => {
+            setOpened(true)
+        })       
+    }, [])
+
     return (
+
+        
+
         <Dock
             isVisible={opened}
             onVisibleChange={(visible) => {
@@ -23,6 +34,16 @@ export default function Sideber() {
                         <Product />
                     ))}
                 </div>
+            </div>
+
+            <div className="row footer align-items-end">
+                <div className="col-12 d-flex justify-content-between align-items-center">
+                    <b className="d-inline-block">Total</b>
+                    <h3>R$90,00</h3>
+                </div>
+                <button className="btn btn-block btn-lg btn-primary rounded-0">
+                    Finalizar Compra
+                </button>
             </div>
         </Dock>
     )

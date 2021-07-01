@@ -8,15 +8,18 @@
         "start": "next start"
     },
     "dependencies": {
+        "@svgr/webpack": "^5.5.0",
         "next": "10.2.0",
         "react": "17.0.2",
         "react-dock": "^0.4.0",
         "react-dom": "17.0.2",
-        "sass": "^1.32.13"
+        "sass": "^1.32.13",
+        "svg-react-loader": "^0.4.6"
     },
     "devDependencies": {
         "@types/node": "^15.0.3",
         "@types/react": "^17.0.5",
+        "next-images": "^1.8.1",
         "typescript": "^4.2.4"
     }
 }
