@@ -6,14 +6,11 @@ import Header from '../components/header'
 import Sidebar from '../components/sidebar'
 import Petshop from '../pages/petshop'
 
-class App extends Component {
-    render() {
-        return (
-            <>
-                <Sidebar />
-            </>
-        )
-    }
+export default function APP() {
+    return (
+        <>
+            <Petshop />
+            <Sidebar />
+        </>
+    )
 }
-
-export default App
