@@ -1,6 +1,7 @@
 :root {
-    --primary: 6, 214, 160;
-    --secondary: 250, 100, 61;
+    //--primary: 6, 214, 160;
+    --primary: 63, 192, 96; //Verde Uber
+    --secondary: 250, 100, 61; //Laranja
 }
 
 html,
@@ -57,6 +58,10 @@ input[type='date']:disabled {
 .btn {
     font-size: 15px;
 }
+
+// .btn-primary.rounded-circle {
+//     background: #71a182 !important;
+// }
 
 .btn-secondary.rounded-circle {
     padding: 6px 14px;

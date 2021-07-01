@@ -1,7 +1,7 @@
 import Header from '../../components/header'
 import Product from '../../components/product/list'
 
-import './styles.module.scss'
+
 
 export default function Checkout() {
     return (

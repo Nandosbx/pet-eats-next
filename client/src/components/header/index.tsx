@@ -1,9 +1,5 @@
-import { useEffect, useState } from 'react'
+import LogoGreen from '../../assets/LogoGreen.svg'
 import Logo from '../../assets/Logo.svg'
-import LogoWhite from '../../assets/LogoWhite.svg'
-
-
-import './styles.module.scss'
 
 type headerProps = {
     whiteVersion: boolean
@@ -16,10 +12,11 @@ export default function Header({ whiteVersion }: headerProps) {
     }
 
     return (
-        <div className="col-12 bg-dark header">
+        <div className="col-12 header">
+            <div></div>
             <header className="py-1 px-1 text-center">
                 <img
-                    src={whiteVersion ? LogoWhite : Logo}
+                    src={whiteVersion ? Logo : LogoGreen}
                     className="img-fluid"
                     alt="Logo"
                 />

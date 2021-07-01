@@ -1,10 +1,6 @@
 import { useEffect, useState } from 'react'
 
-import './styles.module.scss'
 import Dock from 'react-dock'
-
-
-
 import Product from '../../components/product/list'
 
 export default function Sidebar() {
@@ -13,13 +9,10 @@ export default function Sidebar() {
     useEffect(() => {
         window.addEventListener('openCart', () => {
             setOpened(true)
-        })       
+        })
     }, [])
 
     return (
-
-        
-
         <Dock
             isVisible={opened}
             onVisibleChange={(visible) => {
@@ -30,8 +23,8 @@ export default function Sidebar() {
             <div className="container-fluid h-100 pt-4 sidebar">
                 <h5>Minha Sacola (5)</h5>
                 <div className="row products">
-                    {[1, 2, 3, 4, 5, 6].map((product) => (
-                        <Product />
+                    {[1, 2, 3, 4, 5, 6].map((product, i) => (
+                        <Product key={i} />
                     ))}
                 </div>
             </div>

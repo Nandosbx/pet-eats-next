@@ -1,15 +1,18 @@
 import Header from '../../components/header'
 import Product from '../../components/product/card'
 
-import './styles.module.scss'
-
 export default function Petshop() {
     return (
         <div className="h-100">
-            <Header whiteVersion />
+            <Header whiteVersion={true} />
+
             <div className="container">
-                <div className="col-2">
-                    <img src="" alt="" className="petshop-image" />
+                <aside className="col-3">
+                    <img
+                        src="https://avatars.githubusercontent.com/u/4692034?s=200&v=4https://avatars.githubusercontent.com/u/4692034?s=200&v=4"
+                        alt=""
+                        className="petshop-image"
+                    />
                     <b>Petlove</b>
 
                     <div className="petshop-infos">
@@ -29,17 +32,17 @@ export default function Petshop() {
                         </text>
                     </div>
                     <label className="badge badge-primary">Frete grátis</label>
-                </div>
+                </aside>
 
-                <div className="col-10">
+                <main className="col-10">
                     <h5>Produtos</h5>
                     <br />
                     <div className="row">
-                        {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((p) => (
-                            <Product />
+                        {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((p, i) => (
+                            <Product key={i} />
                         ))}
                     </div>
-                </div>
+                </main>
             </div>
         </div>
     )

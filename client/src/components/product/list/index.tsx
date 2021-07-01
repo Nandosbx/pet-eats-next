@@ -1,4 +1,4 @@
-import './styles.module.scss'
+
 
 export default function Product() {
     return (

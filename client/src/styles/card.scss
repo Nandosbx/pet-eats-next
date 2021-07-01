@@ -1,8 +1,9 @@
 .product {
     margin-bottom: 50px;
+    border: 0.5px solid #dcdcdc !important;
+    margin: 1px;
 
-    img {
-        border: 1px solid #dcdcdc;
+    > img {
         border-radius: 5px;
         margin-bottom: 10px;
         padding: 20px;

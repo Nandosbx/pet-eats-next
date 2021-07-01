@@ -1,3 +1,13 @@
+.container {
+    margin-top: 10px;
+    display: inline-flex;
+    justify-self: right;
+
+    main {
+        gap: 10px;
+    }
+}
+
 .petshop-infos span {
     vertical-align: middle;
     color: #626264;
