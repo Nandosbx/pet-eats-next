@@ -119,10 +119,13 @@
     }
 }
 
+#top {
+}
+
 .petshop-list-container {
     height: 300px;
     position: absolute;
-    top: 91px;
+    top: 90px;
     z-index: 999;
     left: 0;
     right: 0;
@@ -141,4 +144,6 @@
     overflow-x: auto;
     width: 100%;
     margin-top: 15px;
+    margin-bottom: 10px;
+    position: static;
 }
