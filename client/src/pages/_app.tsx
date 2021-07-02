@@ -8,6 +8,7 @@ import '../styles/sidebar.scss'
 import '../styles/list.scss'
 import '../styles/card.scss'
 import '../styles/home.scss'
+import '../styles/map.scss'
 
 function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />
