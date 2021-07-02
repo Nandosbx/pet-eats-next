@@ -28,6 +28,8 @@ export default class MyDocument extends Document {
                         rel="stylesheet"
                         href="https://cdn.jsdelivr.net/npm/@mdi/font@5.9.55/css/materialdesignicons.min.css"
                     />
+
+
                 </Head>
                 <body>
                     <Main />

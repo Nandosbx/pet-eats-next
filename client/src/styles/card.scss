@@ -1,6 +1,6 @@
 .product {
     margin-bottom: 50px;
-    border: 0.5px solid #dcdcdc !important;
+
     margin: 1px;
 
     > img {
@@ -9,6 +9,7 @@
         padding: 20px;
         max-height: 210px;
         width: 100%;
+        border: 0.5px solid #3fc060 !important;
     }
 
     .badge {

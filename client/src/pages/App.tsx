@@ -3,6 +3,7 @@ import Header from '../components/header'
 import Sidebar from '../components/sidebar'
 import Petshop from '../pages/petshop'
 import Cadastro from './cadastro'
+import Home from './home'
 
 import dynamic from 'next/dynamic'
 
@@ -13,7 +14,7 @@ export default function App() {
 
     return (
         <>
-            <Cadastro />
+            <Home />
             <SidebarWithNoSSR />
         </>
     )

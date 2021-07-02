@@ -1,5 +1,3 @@
-
-
 export default function Product() {
     return (
         <div className="col-3 product">
@@ -17,7 +15,7 @@ export default function Product() {
                 </label>
             </h4>
             <small>
-                <b>Nome do produto</b>
+                <b>Ração Pedigree</b>
             </small>
         </div>
     )

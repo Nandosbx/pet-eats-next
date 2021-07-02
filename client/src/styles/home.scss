@@ -118,3 +118,11 @@
         flex-direction: column;
     }
 }
+
+.petshop-list-container {
+    padding: 15px;
+    white-space: nowrap;
+    overflow-x: auto;
+    width: 100%;
+    margin-top: 15px;
+}

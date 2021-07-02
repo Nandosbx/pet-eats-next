@@ -5,12 +5,11 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="34mm"
-   height="18mm"
-   viewBox="0 0 34 18"
+   width="28mm"
+   height="10mm"
+   viewBox="0 0 28 10"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
@@ -18,37 +17,11 @@
   <defs
      id="defs2">
     <rect
-       x="-691.65548"
-       y="-817.8345"
+       x="-691.65546"
+       y="-817.83447"
        width="134.72841"
-       height="56.27223"
+       height="56.272228"
        id="rect886" />
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient912">
-      <stop
-         style="stop-color:#ff0000;stop-opacity:1"
-         offset="0"
-         id="stop908" />
-      <stop
-         style="stop-color:#ff3500;stop-opacity:1;"
-         offset="0.52815861"
-         id="stop1489" />
-      <stop
-         style="stop-color:#ff6600;stop-opacity:1"
-         offset="1"
-         id="stop910" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient912"
-       id="linearGradient914"
-       x1="46.229118"
-       y1="-184.21336"
-       x2="246.38249"
-       y2="-184.21336"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.73414316,0,0,0.73414316,-127.51825,-247.37098)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -97,26 +70,24 @@
          transform="translate(97.38143,407.68272)">
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:32px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient914);fill-opacity:1;stroke:none;stroke-width:0.734147"
-           x="-96.810318"
-           y="-371.3649"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.734147"
+           x="-108.91833"
+           y="-382.10104"
            id="text906"
            transform="scale(0.71015186,1.4081495)"><tspan
              sodipodi:role="line"
              id="tspan904"
-             x="-96.810318"
-             y="-371.3649"
-             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Cocogoose Pro';-inkscape-font-specification:'Cocogoose Pro Italic';fill:url(#linearGradient914);fill-opacity:1;stroke-width:0.734147"><tspan
-               style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Cocogoose Pro';-inkscape-font-specification:'Cocogoose Pro Italic';fill:#162328;fill-opacity:1"
-               id="tspan880">Pet</tspan><tspan
-               style="fill:#ffffff"
-               id="tspan851"> </tspan><tspan
+             x="-108.91833"
+             y="-382.10104"
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Cocogoose Pro';-inkscape-font-specification:'Cocogoose Pro Italic';fill:#ff0000;fill-opacity:1;stroke-width:0.734147"><tspan
+               style="fill:#162328;fill-opacity:1"
+               id="tspan3773">Pet </tspan><tspan
                style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Cocogoose Pro';-inkscape-font-specification:'Cocogoose Pro Italic';fill:#3fc060;fill-opacity:1"
                id="tspan878">Eats</tspan></tspan></text>
         <text
            xml:space="preserve"
            id="text884"
-           style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40.0000005px;white-space:pre;shape-inside:url(#rect886);" />
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect886);fill:#000000;fill-opacity:1;stroke:none;" />
       </g>
     </g>
   </g>

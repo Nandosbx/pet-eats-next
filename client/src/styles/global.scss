@@ -6,6 +6,7 @@
 
 html,
 body {
+    
     height: 100%;
     overflow-x: hidden;
     font-family: 'Open Sans';
@@ -91,4 +92,39 @@ input[type='date']:disabled {
     border-radius: 5px;
     display: inline-block;
     padding: 50px;
+}
+
+@mixin custom-scroll-bar() {
+    &::-webkit-scrollbar {
+        border-radius: 10px;
+        height: 10px;
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #999;
+        border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+        border-radius: 10px;
+    }
+}
+
+// no scroll bar
+@mixin no-scroll-bar() {
+    &::-webkit-scrollbar {
+        height: 0;
+        width: 0;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        height: 0;
+        width: 0;
+    }
+
+    &::-webkit-scrollbar-track {
+        height: 0;
+        width: 0;
+    }
 }

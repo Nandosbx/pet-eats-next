@@ -1,16 +1,17 @@
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 1 auto;
-    background: #162328;
+// .header {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     margin: 0 auto;
+//     background: #162328;
 
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
-}
+//     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+// }
 
 .cart-button {
     position: relative;
     float: right;
     z-index: 999;
-    margin-right: 10px;
+    margin-top: -70px;
+    margin-right: 20px;
 }

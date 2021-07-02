@@ -4,7 +4,7 @@ import Product from '../../components/product/list'
 export default function Cadastro() {
     return (
         <div className="container-fluid h-100 bg-primary">
-            <Header whiteVersion />
+            <Header greenVersion={false} hideCart />
             <div className="row">
                 <div className="col-6 my-auto text-right">
                     <img src="" alt="Logo" className="img-fluid" />

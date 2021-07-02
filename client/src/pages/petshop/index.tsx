@@ -4,10 +4,10 @@ import Product from '../../components/product/card'
 export default function Petshop() {
     return (
         <div className="h-100">
-            <Header whiteVersion={true} />
+            <Header greenVersion hideCart={false} />
 
             <div className="container">
-                <aside className="col-3">
+                <div className="col-2">
                     <img
                         src="https://avatars.githubusercontent.com/u/4692034?s=200&v=4https://avatars.githubusercontent.com/u/4692034?s=200&v=4"
                         alt=""
@@ -32,9 +32,9 @@ export default function Petshop() {
                         </text>
                     </div>
                     <label className="badge badge-primary">Frete grátis</label>
-                </aside>
+                </div>
 
-                <main className="col-10">
+                <div className="col-10">
                     <h5>Produtos</h5>
                     <br />
                     <div className="row">
@@ -42,7 +42,7 @@ export default function Petshop() {
                             <Product key={i} />
                         ))}
                     </div>
-                </main>
+                </div>
             </div>
         </div>
     )
