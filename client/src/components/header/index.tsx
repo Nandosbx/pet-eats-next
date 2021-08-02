@@ -1,8 +1,3 @@
-//import { Link } from 'react-router-dom'
-import Logo from '../../assets/Logo.svg'
-import LogoGreen from '../../assets/LogoGreen.svg'
-import LogoWhite from '../../assets/LogoWhite.svg'
-
 type headerProps = {
     greenVersion: boolean
     hideCart: boolean
@@ -18,11 +13,25 @@ export default function Header({ greenVersion, hideCart }: headerProps) {
         <div className="col-12">
             <div></div>
             <header className="py-4 px-4 text-center">
-                <img
+                {/* <img
                     src={greenVersion ? LogoGreen : LogoWhite}
                     className="img-fluid"
                     alt="Logo"
-                />
+                /> */}
+
+                {greenVersion ? (
+                    <img
+                        src="/LogoGreen.svg"
+                        className="img-fluid"
+                        alt="Logo"
+                    />
+                ) : (
+                    <img
+                        src="/LogoWhite.svg"
+                        className="img-fluid"
+                        alt="Logo"
+                    />
+                )}
             </header>
             {!hideCart && (
                 <button

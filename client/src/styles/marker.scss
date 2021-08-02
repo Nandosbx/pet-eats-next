@@ -1,14 +1,11 @@
 .marker-icon {
-    width: 100%;
-    height: 100%;
+    position: relative;
 }
 
 .img-marker {
-    width: 48px;
-    top: 14px;
+    width: 50px;
+    top: 23px;
     left: 24px;
     border-radius: 100%;
     position: absolute;
-    justify-content: center;
-    align-items: center;
 }

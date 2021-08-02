@@ -1,5 +1,4 @@
-import Header from '../../components/header'
-import Product from '../../components/product/list'
+import Header from '../components/Header'
 
 export default function Cadastro() {
     return (

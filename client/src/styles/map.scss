@@ -1,5 +1,7 @@
 .container-map {
-    height: calc(100% - 94px);
+    height: calc(100% - 91px);
     width: 100%;
-    overflow: hidden;
+    margin-top: 6px;
+    position: fixed;
+    overflow-y: hidden;
 }

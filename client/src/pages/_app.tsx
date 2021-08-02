@@ -12,7 +12,13 @@ import '../styles/map.scss'
 import '../styles/marker.scss'
 
 function MyApp({ Component, pageProps }) {
-    return <Component {...pageProps} />
+    return (
+        <>
+            {typeof window === 'undefined' ? null : (
+                <Component {...pageProps} />
+            )}
+        </>
+    )
 }
 
 export default MyApp

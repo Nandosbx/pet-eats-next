@@ -1,5 +1,3 @@
-
-
 export default function Product() {
     return (
         <div className="col-12 product-list">

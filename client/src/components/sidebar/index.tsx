@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 import Dock from 'react-dock'
-import Product from '../../components/product/list'
+import Product from '../../components/Product/List'
 
 export default function Sidebar() {
     const [opened, setOpened] = useState(false)

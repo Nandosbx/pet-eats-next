@@ -4,7 +4,7 @@ import Product from '../../components/product/list'
 export default function Checkout() {
     return (
         <div className="h-100">
-            <Header whiteVersion hideCart />
+            <Header greenVersion hideCart />
             <div className="container mt-4">
                 <div className="row">
                     <div className="col-6">

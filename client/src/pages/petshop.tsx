@@ -1,5 +1,5 @@
-import Header from '../../components/header'
-import Product from '../../components/product/card'
+import Header from '../components/Header'
+import Product from '../components/Product/Card'
 
 export default function Petshop() {
     return (
